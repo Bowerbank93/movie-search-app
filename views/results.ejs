@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<h1> Search Results</h1>
+<ul>
+    <% data["Search"].forEach((movie) => { %>
+        <li>
+            <a href="/movie/<%=movie['imdbID']%>"><img src= "<%= movie['Poster'] %>"></a> 
+            <strong> <%=  movie["Title"] %> </strong>
+        </li>
+    <% }) %>
+</ul>
+
+<a href="/">Back home</a>
+
+<% include partials/footer %>

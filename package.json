@@ -1,0 +1,25 @@
+{
+  "name": "movie-search-app",
+  "version": "1.0.0",
+  "description": "an app to search for movies using OMDB API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bowerbank93/movie-search-app.git"
+  },
+  "author": "Malachi Bowerbank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bowerbank93/movie-search-app/issues"
+  },
+  "homepage": "https://github.com/Bowerbank93/movie-search-app#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}

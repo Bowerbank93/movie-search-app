@@ -1,0 +1,41 @@
+body {
+    background: #F5F5F5;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+li {
+    list-style: none;
+    margin: 20px;
+}
+
+strong {
+    display: block;
+    width: 200px;
+}
+
+ul img {
+    width: 200px;
+}
+
+img {
+    width: 300px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "poster details";
+    justify-items: center;
+}
+
+.poster {
+    grid-area: poster;
+}
+
+.details {
+    grid-area: details;
+    align-self: center;
+}
